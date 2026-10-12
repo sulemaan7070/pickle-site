@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+html {
+  font-family: "Outfit", "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("./images/bg-desktop.png");
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.swiper {
+  --swiper-pagination-color: #254c38; /* active dot */
+  --swiper-pagination-bullet-inactive-color: #a8b89b; /* inactive dots */
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+  --swiper-pagination-bullet-size: 10px;
+}
