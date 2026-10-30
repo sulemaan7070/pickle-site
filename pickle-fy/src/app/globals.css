@@ -1,0 +1,9 @@
+/*
+ * Tailwind: only the "base" variables and the utility classes.
+ * Tailwind's own reset (preflight) is switched off in tailwind.config.js because
+ * Material UI's CssBaseline already resets the browser defaults.
+ */
+@tailwind base;
+@tailwind utilities;
+
+/* No scroll-behavior: smooth here - Lenis (SmoothScroll.js) handles smooth scrolling. */

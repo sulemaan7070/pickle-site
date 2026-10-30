@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="98" fill="#FFFFFF"/>
+  <g transform="translate(-30 -26) scale(1.27)">
+  <!-- palm trunk -->
+  <path d="M96 152 C100 128 104 108 110 88" fill="none" stroke="#E79114" stroke-width="9" stroke-linecap="round"/>
+  <!-- fronds -->
+  <path fill="#E79114" d="M111 84 C100 62 80 56 64 64 C84 66 98 74 111 84 Z"/>
+  <path fill="#E79114" d="M111 84 C112 62 124 46 144 44 C132 56 122 68 111 84 Z"/>
+  <path fill="#E79114" d="M111 84 C130 68 152 70 162 86 C144 80 126 80 111 84 Z"/>
+  <path fill="#E79114" d="M111 84 C94 78 72 84 64 102 C82 92 98 86 111 84 Z"/>
+  <path fill="#E79114" d="M111 84 C124 90 140 100 142 118 C132 104 122 96 111 84 Z"/>
+  <circle cx="106" cy="91" r="5.5" fill="#E79114"/><circle cx="116" cy="92" r="5" fill="#E79114"/>
+  </g>
+  <!-- "no" slash with a white halo so it cuts cleanly through the palm -->
+  <line x1="54" y1="54" x2="146" y2="146" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round"/>
+  <line x1="54" y1="54" x2="146" y2="146" stroke="#E79114" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,41 @@
+/* Look of the picture carousel inside each product card (Swiper's own CSS is imported in CardImages.js). */
+
+.card-swiper {
+  --swiper-navigation-sides-offset: 8px;
+  --swiper-pagination-bottom: 8px;
+}
+
+/* Small round white arrow buttons, drawn with CSS so no icon font is needed. */
+.card-swiper .swiper-button-prev,
+.card-swiper .swiper-button-next {
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  margin-top: -17px;
+  border: 2px solid #273e10;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+}
+.card-swiper .swiper-button-prev::after,
+.card-swiper .swiper-button-next::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: solid #273e10;
+  border-width: 0 0 2.5px 2.5px;
+  transform: translateX(2px) rotate(45deg);
+  font-size: 0;
+}
+.card-swiper .swiper-button-next::after {
+  transform: translateX(-2px) rotate(-135deg);
+}
+
+/* Dots over the bottom of the picture: light with a dark outline, current one filled. */
+.card-swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.5px solid #273e10;
+  opacity: 1;
+}
+.card-swiper .swiper-pagination-bullet-active {
+  background: #273e10;
+}

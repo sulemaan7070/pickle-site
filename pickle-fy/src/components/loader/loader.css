@@ -1,0 +1,39 @@
+/* Styles for the loading overlay (see PickleLoader.js). */
+
+#ov {
+  position: fixed;
+  inset: 0;
+  z-index: 99999; /* above the Material UI app bar / drawers */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+#ov .wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: min(96vw, 900px);
+}
+
+#ov .scene {
+  width: 100%;
+}
+
+#ov svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+#pct {
+  color: #273e10;
+  font-weight: 700;
+  font-size: clamp(16px, 3vw, 22px);
+  font-variant-numeric: tabular-nums;
+}
